@@ -20,21 +20,6 @@ CardioMate is a Gradio + OpenAI SDK portfolio app that helps users understand th
 - Rich PDF downloads for assessment results and day-wise progress tracking.
 - Rule-based fallback when no OpenAI API key is configured.
 
-## Hugging Face Spaces Deployment
-
-1. Create a new Space using the Gradio SDK.
-2. Upload all files from this folder.
-3. Add `OPENAI_API_KEY` in Space secrets.
-4. Optional: set `OPENAI_MODEL`, for example `gpt-4.1-mini`.
-5. The Space will run `app.py` automatically.
-
-## Local Run
-
-```bash
-pip install -r requirements.txt
-copy .env.example .env
-python app.py
-```
 
 ## Required ASCVD Inputs
 
